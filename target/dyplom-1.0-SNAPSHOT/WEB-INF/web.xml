@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+    http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         id="WebApp_ID" version="3.0">
+
+    <display-name>Quick Servlet Demo Application</display-name>
+
+    <servlet>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <servlet-class>eyogo.servlet.WelcomeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RecognizeServlet</servlet-name>
+        <servlet-class>eyogo.servlet.RecognizeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SubmitServlet</servlet-name>
+        <servlet-class>eyogo.servlet.SubmitServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RecognizeServlet</servlet-name>
+        <url-pattern>/recognize</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SubmitServlet</servlet-name>
+        <url-pattern>/submit</url-pattern>
+    </servlet-mapping>
+
+</web-app>

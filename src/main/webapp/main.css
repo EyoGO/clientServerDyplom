@@ -1,0 +1,31 @@
+* {
+  text-align: center;
+}
+#format {
+  background-color: #4287f5;
+  color: black;
+  font-weight: bold;
+  font-size: 64px;
+  height: 200px;
+  padding-top: 100px;
+  border: ridge blue;
+}
+#space {
+  color: black;
+  font-size: 28px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+button {
+    background-color: #4287f5;
+    height: 200px;
+    width: 35%;
+    color: black;
+    font-size: 38px;
+    font-weight: bold;
+    border: ridge blue;
+}
+button:hover {
+  color: cyan;
+  cursor: pointer;
+}

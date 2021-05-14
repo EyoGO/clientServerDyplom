@@ -1,0 +1,71 @@
+#format {
+  text-align: center;
+  background-color: #4287f5;
+  color: black;
+  font-weight: bold;
+  font-size: 64px;
+  height: 200px;
+  padding-top: 100px;
+  border: ridge blue;
+}
+#space {
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#container {
+  height: 500px;
+}
+#menu {
+	height: 100%;
+	width: 25%;
+	float: left;
+}
+button {
+    background-color: #4287f5;
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-size: 38px;
+    font-weight: bold;
+    border: ridge blue;
+}
+button:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+#content {
+	float: left;
+	width: 50%;
+  height: 100%;
+}
+#addSection {
+  float: left;
+	font-size: 16px;
+  height: 100%;
+	width: 25%;
+}
+#block1 {
+  text-align: center;
+  height: 10%;
+  font-size: 26px; 
+  font-weight: bold;
+}
+#block2 {
+  height: 80%; 
+}
+#block3 {
+  height: 10%; 
+}
+table, th, td {
+  text-align: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr {
+  height: 30px;
+}

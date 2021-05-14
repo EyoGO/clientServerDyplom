@@ -1,0 +1,14 @@
+eyogo\business\Dish.class
+eyogo\jdbc\RestaurantDB.class
+eyogo\servlet\TestServlet.class
+eyogo\business\DishCheck.class
+eyogo\business\Check.class
+eyogo\servlet\WelcomeServlet.class
+eyogo\jdbc\DAO.class
+eyogo\jdbc\CheckDAO.class
+eyogo\jdbc\DishDAO.class
+eyogo\servlet\RecognizeServlet.class
+eyogo\jdbc\DishCheckDAO.class
+eyogo\jdbc\PriceDAO.class
+eyogo\servlet\SubmitServlet.class
+eyogo\business\Price.class
