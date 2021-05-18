@@ -1,6 +1,7 @@
+eyogo\business\CheckModel.class
 eyogo\business\Dish.class
+eyogo\business\DishCounter.class
 eyogo\jdbc\RestaurantDB.class
-eyogo\servlet\TestServlet.class
 eyogo\business\DishCheck.class
 eyogo\business\Check.class
 eyogo\servlet\WelcomeServlet.class

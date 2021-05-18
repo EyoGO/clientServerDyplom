@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class DishCheckDAO implements DAO <DishCheck, Integer> {
     @Override
     public boolean create(DishCheck model) {
-        String sqlCreate = "INSERT INTO check VALUES (?, ?, ?)";
+        String sqlCreate = "INSERT INTO dish_checkt VALUES (?, ?, ?)";
         try (PreparedStatement statement = RestaurantDB.getConnection().prepareStatement(sqlCreate)) {
             statement.setInt(1, model.getDishID());
             statement.setInt(2, model.getCheckID());

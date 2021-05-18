@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f4ace22-22e8-4f6f-a9ba-47ccea911ef4" name="Default Changelist" comment="" />
+    <list default="true" id="1f4ace22-22e8-4f6f-a9ba-47ccea911ef4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/User.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eyogo/business/CheckModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eyogo/business/DishCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/submit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eyogo/business/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eyogo/business/Check.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eyogo/business/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eyogo/business/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eyogo/jdbc/CheckDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eyogo/jdbc/CheckDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eyogo/jdbc/DishCheckDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eyogo/jdbc/DishCheckDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eyogo/jdbc/PriceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eyogo/jdbc/PriceDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eyogo/servlet/RecognizeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eyogo/servlet/RecognizeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eyogo/servlet/SubmitServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eyogo/servlet/SubmitServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eyogo/servlet/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eyogo/servlet/WelcomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/recognize.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/recognize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/recognize.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/recognize.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/submit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/submit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyogo/business/Dish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eyogo/business/Dish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyogo/jdbc/CheckDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eyogo/jdbc/CheckDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyogo/jdbc/DishCheckDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eyogo/jdbc/DishCheckDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyogo/jdbc/PriceDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eyogo/jdbc/PriceDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyogo/servlet/RecognizeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eyogo/servlet/RecognizeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyogo/servlet/SubmitServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eyogo/servlet/SubmitServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyogo/servlet/TestServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyogo/servlet/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eyogo/servlet/WelcomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/business/Dish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/business/Dish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/jdbc/CheckDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/jdbc/CheckDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/jdbc/DishCheckDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/jdbc/DishCheckDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/jdbc/PriceDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/jdbc/PriceDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/RecognizeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/RecognizeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/SubmitServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/SubmitServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/WelcomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/recognize.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/recognize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/recognize.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/recognize.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/submit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/submit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,12 +55,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1sDznuQ6h6MrQaeuVXxAaafGr3Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -26,12 +74,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.side.proportion" value="0.2908046" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -120,42 +173,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620423711597" />
-    <state x="765" y="236" width="390" height="727" key="#com.intellij.ide.util.MemberChooser" timestamp="1620946512665">
+    <state x="765" y="236" width="390" height="727" key="#com.intellij.ide.util.MemberChooser" timestamp="1621286732778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" width="390" height="727" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1620946512665" />
+    <state x="765" y="236" width="390" height="727" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1621286732778" />
+    <state x="790" y="231" width="502" height="577" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1621122879506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="231" width="502" height="577" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621122879506" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1620514935110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620514935110" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1621019228909">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1621348110914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621019228909" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1621019228909">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621348110914" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1621348110914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621019228909" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1621019228909">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621348110914" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1621348110914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621019228909" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1621019228909">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621348110914" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1621348110914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621019228909" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621348110914" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1620423294588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620423294588" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1620423857566">
+    <state x="440" y="95" key="SettingsEditor" timestamp="1621282988092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1620423857566" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1621016233876">
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621282988092" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1621335017397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621016233876" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621335017397" />
+    <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1621122749959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1621122749959" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621116676771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1621116676771" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1621122406933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="558" height="500" key="javadoc.popup.new" timestamp="1621348104597">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="558" height="500" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1621348104597" />
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621122406933" />
     <state x="342" y="216" key="new project wizard" timestamp="1620946210934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -164,5 +237,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1620600324294" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1621341428645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621341428645" />
   </component>
 </project>

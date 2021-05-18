@@ -18,7 +18,7 @@ public class PriceDAO implements DAO <Price, Integer>{
     @Override
     public Price read(Integer integer) {
         Price result = null;
-        String sqlRead = "SELECT * FROM price WHERE dishID=? LIMIT 1";
+        String sqlRead = "SELECT * FROM price WHERE dish_id=? ORDER BY price_date DESC LIMIT 1";
         try (PreparedStatement statement = RestaurantDB.getConnection().prepareStatement(sqlRead)) {
             statement.setInt(1, integer);
             ResultSet resultSet = statement.executeQuery();

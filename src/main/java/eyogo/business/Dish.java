@@ -1,6 +1,7 @@
 package eyogo.business;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 // Bean
 public class Dish implements Serializable {
@@ -36,5 +37,20 @@ public class Dish implements Serializable {
     }
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Dish dish = (Dish) o;
+        return id == dish.id &&
+                name.equals(dish.name) &&
+                Objects.equals(description, dish.description);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, description);
     }
 }

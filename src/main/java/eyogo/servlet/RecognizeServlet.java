@@ -1,5 +1,10 @@
 package eyogo.servlet;
 
+import com.mysql.cj.protocol.result.AbstractResultsetRow;
+import eyogo.business.Dish;
+import eyogo.business.DishCounter;
+import eyogo.jdbc.DishDAO;
+
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -7,15 +12,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 
 public class RecognizeServlet extends HttpServlet {
-    /**
-     * this life-cycle method is invoked when this servlet is first accessed
-     * by the client
-     */
-    public void init(ServletConfig config) {
-        System.out.println("Servlet is being initialized");
-    }
+
+    private static Map<String, ArrayList<DishCounter>> terminals = new HashMap<>();
+    private static DishDAO dishDAO = new DishDAO();
 
     /**
      * handles HTTP GET request
@@ -24,6 +29,10 @@ public class RecognizeServlet extends HttpServlet {
             throws IOException {
         try {
             request.getRequestDispatcher("/recognize.jsp").forward(request, response);
+            String sessionID = request.getSession().getId();
+            if (!terminals.containsKey(sessionID)) {
+                terminals.put(sessionID, new ArrayList<>());
+            }
         } catch (ServletException e) {
             e.printStackTrace();
         }
@@ -33,26 +42,29 @@ public class RecognizeServlet extends HttpServlet {
      * handles HTTP POST request
      */
     public void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws IOException {
-        String paramWidth = request.getParameter("width");
-        int width = Integer.parseInt(paramWidth);
+            throws IOException, ServletException {
+        int dishID = new Random().nextInt(3) + 1;
+        String sessionID = request.getSession().getId();
+        ArrayList<DishCounter> currentDishes = terminals.get(sessionID);
+        Dish dish = dishDAO.read(dishID);
+        boolean found = false;
+        for (int i = 0; i < currentDishes.size(); i++) {
+            DishCounter dishCounterExample = currentDishes.get(i);
+            if (dishCounterExample.getDish().equals(dish)) {
+                dishCounterExample.setCount(dishCounterExample.getCount()+1);
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            currentDishes.add(new DishCounter(dish, 1));
+        }
+        request.setAttribute("dishes", terminals.get(sessionID));
 
-        String paramHeight = request.getParameter("height");
-        int height = Integer.parseInt(paramHeight);
-
-        long area = width * height;
-
-        PrintWriter writer = response.getWriter();
-        writer.println("<html>Area of the rectangle is: " + area + "</html>");
-        writer.flush();
-
+        request.getRequestDispatcher("/recognize.jsp").forward(request, response);
     }
 
-    /**
-     * this life-cycle method is invoked when the application or the server
-     * is shutting down
-     */
-    public void destroy() {
-        System.out.println("Servlet is being destroyed");
+    public static Map<String, ArrayList<DishCounter>> getTerminals() {
+        return terminals;
     }
 }

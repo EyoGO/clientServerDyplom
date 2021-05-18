@@ -5,9 +5,11 @@ E:\Java\dyplom\src\main\java\eyogo\jdbc\CheckDAO.java
 E:\Java\dyplom\src\main\java\eyogo\servlet\SubmitServlet.java
 E:\Java\dyplom\src\main\java\eyogo\servlet\WelcomeServlet.java
 E:\Java\dyplom\src\main\java\eyogo\business\Dish.java
+E:\Java\dyplom\src\main\java\eyogo\business\CheckModel.java
 E:\Java\dyplom\src\main\java\eyogo\servlet\RecognizeServlet.java
 E:\Java\dyplom\src\main\java\eyogo\jdbc\RestaurantDB.java
 E:\Java\dyplom\src\main\java\eyogo\business\Price.java
 E:\Java\dyplom\src\main\java\eyogo\jdbc\DishDAO.java
 E:\Java\dyplom\src\main\java\eyogo\jdbc\PriceDAO.java
 E:\Java\dyplom\src\main\java\eyogo\jdbc\DAO.java
+E:\Java\dyplom\src\main\java\eyogo\business\DishCounter.java

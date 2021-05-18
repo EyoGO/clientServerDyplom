@@ -4,14 +4,18 @@ import eyogo.business.Check;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.TimeZone;
 
 public class CheckDAO implements DAO <Check, Integer> {
     @Override
     public boolean create(Check model) {
-        String sqlCreate = "INSERT INTO check VALUES (?, ?)";
+        String sqlCreate = "INSERT INTO checkt VALUES (?, ?)";
         try (PreparedStatement statement = RestaurantDB.getConnection().prepareStatement(sqlCreate)) {
             statement.setInt(1, model.getId());
-            statement.setDate(2, model.getDate());
+            Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("GMT+3:00"));
+            statement.setTimestamp(2, model.getTimestamp(), calendar);
             statement.execute();
         } catch (SQLException e) {
             e.printStackTrace();
