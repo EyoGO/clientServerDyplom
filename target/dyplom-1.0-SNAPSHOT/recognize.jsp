@@ -5,18 +5,23 @@
 	<head>
 		<title>Розпізнавання страв</title>
 		<link rel="stylesheet" href="recognize.css">
+        <script src="capture.js">
+	</script>
 	</head>
-	
+
 	<body>
         <div id="format" align="center">Розпізнавання страв</div>
-        <div id="space">Покладіть страву у місце для розпізнавання та натисніть кнопку</div>
+        <div id="space"><%=request.getParameter("test")%>Покладіть страву у місце для розпізнавання та натисніть кнопку</div>
         <div id="container">
             <div id="menu">
-                <form action="recognize" method="post">
-                    <input type="submit" name="action" value="Розпізнати страву" />
-                </form>
+              <button id="startbutton">Розпізнати страву</button>
             </div>
-            <div id="content"></div>
+            <div id="content">
+  <video id="video"></video>
+  <canvas id="canvas">
+  </canvas>
+    <img id="photo" src=<%=request.getParameter("test")%> alt="The screen capture will appear in this box.">
+            </div>
             <div id="addSection">
                 <div id="block1">
                     Розпізнані страви
@@ -34,14 +39,6 @@
                                 <td>${dishCounter.count}</td>
                             </tr>
                         </c:forEach>
-                        <!--<tr>
-                          <td>Страва 1</td>
-                          <td>1</td>
-                        </tr>
-                        <tr>
-                          <td>Страва 2</td>
-                          <td>3</td>
-                        </tr>-->
                     </table>
                 </div>
 
