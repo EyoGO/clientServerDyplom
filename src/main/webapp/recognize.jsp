@@ -5,22 +5,23 @@
 	<head>
 		<title>Розпізнавання страв</title>
 		<link rel="stylesheet" href="recognize.css">
-        <script src="capture.js">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="capture.js?v22">
 	</script>
 	</head>
 
 	<body>
         <div id="format" align="center">Розпізнавання страв</div>
-        <div id="space"><%=request.getParameter("test")%>Покладіть страву у місце для розпізнавання та натисніть кнопку</div>
+        <div id="space">Покладіть страву у місце для розпізнавання та натисніть кнопку</div>
         <div id="container">
             <div id="menu">
-              <button id="startbutton">Розпізнати страву</button>
+                <button id="startbutton">Розпізнати страву</button>
             </div>
             <div id="content">
-  <video id="video"></video>
-  <canvas id="canvas">
-  </canvas>
-    <img id="photo" src=<%=request.getParameter("test")%> alt="The screen capture will appear in this box.">
+                <video id="video"></video>
+                <canvas id="canvas">
+                </canvas>
+                <img id="photo">
             </div>
             <div id="addSection">
                 <div id="block1">
@@ -31,7 +32,7 @@
                     <table style="width:100%">
                         <tr style="background-color: #c2c2c2">
                             <th style="width:65%">Страва</th>
-                            <th>Кількість</th>
+                            <th><!--<%=request.getParameter("test")%>-->Кількість</th>
                         </tr>
                         <c:forEach items="${dishes}" var="dishCounter">
                             <tr>
@@ -50,5 +51,5 @@
 
             </div>
         </div>
-	</body>
+    </body>
 </html>

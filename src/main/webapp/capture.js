@@ -1,5 +1,5 @@
 (function() {
-  var width = 320;    // We will scale the photo width to this
+  var width = 665;    // We will scale the photo width to this
   var height = 0;     // This will be computed based on the input stre
   var streaming = false;
   var video = null;
@@ -54,32 +54,9 @@
     context.fillStyle = "#AAA";
     context.fillRect(0, 0, canvas.width, canvas.height);
 
-    var data = canvas.toDataURL('image/png');
+    var data = canvas.toDataURL('image/jpeg');
   //  photo.setAttribute('src', data);
   }
-
-    function post(path, params, method='post') {
-
-      // The rest of this code assumes you are not using a library.
-      // It can be made less verbose if you use one.
-      const form = document.createElement('form');
-      form.method = method;
-      form.action = path;
-
-      for (const key in params) {
-        if (params.hasOwnProperty(key)) {
-          const hiddenField = document.createElement('input');
-          hiddenField.type = 'hidden';
-          hiddenField.name = key;
-          hiddenField.value = params[key];
-
-          form.appendChild(hiddenField);
-        }
-      }
-
-      document.body.appendChild(form);
-      form.submit();
-    }
 
   function takepicture() {
     var context = canvas.getContext('2d');
@@ -88,18 +65,12 @@
       canvas.height = height;
       context.drawImage(video, 0, 0, width, height);
 
-      var data = canvas.toDataURL('image/png');
+      var data = canvas.toDataURL('image/jpeg');
 
-      post('recognize', {'test':data})
-//      var form = document.createElement('form');
-//      form.setAttribute('method', 'post');
-//      form.setAttribute('action', 'recognize');
-//      form.setAttribute("test", data);
-//      form.style.display = 'hidden';
-//      document.body.appendChild(form)
-//      form.submit();
-
-//      photo.setAttribute('src', data);
+      photo.setAttribute('src', data);
+      $(document).ready(function(){
+          $( "#block2" ).load( "recognize #block2", { test : data });
+      });
     } else {
       clearphoto();
     }

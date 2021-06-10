@@ -28,7 +28,7 @@ public class SubmitServlet extends HttpServlet {
         }
         finally {
             try {
-                statement.close();
+                if (statement != null) statement.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }

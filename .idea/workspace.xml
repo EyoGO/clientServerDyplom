@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f4ace22-22e8-4f6f-a9ba-47ccea911ef4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/capture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eyogo/servlet/RecognizeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eyogo/servlet/RecognizeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eyogo/servlet/SubmitServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eyogo/servlet/SubmitServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eyogo/servlet/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eyogo/servlet/WelcomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/capture.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/capture.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/recognize.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/recognize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/recognize.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/recognize.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/submit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/submit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyogo/servlet/RecognizeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eyogo/servlet/RecognizeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyogo/servlet/SubmitServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eyogo/servlet/SubmitServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eyogo/servlet/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eyogo/servlet/WelcomeServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/RecognizeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/RecognizeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/SubmitServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/SubmitServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/WelcomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/WEB-INF/classes/eyogo/servlet/WelcomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/capture.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/capture.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/recognize.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/recognize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/recognize.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/recognize.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/submit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/dyplom-1.0-SNAPSHOT/submit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,22 +165,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620514935110" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1621410618496">
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom" timestamp="1623275043356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621410618496" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1621410618496">
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623275043356" />
+    <state width="1877" height="178" key="GridCell.Tab.0.center" timestamp="1623275043355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621410618496" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1621410618496">
+    <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623275043355" />
+    <state width="1877" height="178" key="GridCell.Tab.0.left" timestamp="1623275043355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621410618496" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1621410618496">
+    <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623275043355" />
+    <state width="1877" height="178" key="GridCell.Tab.0.right" timestamp="1623275043356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621410618496" />
+    <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623275043356" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1620423294588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,10 +189,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621282988092" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1621408988505">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1622489575696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621408988505" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622489575696" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1623314373181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623314373181" />
     <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1621122749959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -190,10 +208,10 @@
     <state width="600" height="424" key="javadoc.popup" timestamp="1621122406933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="558" height="500" key="javadoc.popup.new" timestamp="1621348104597">
+    <state width="558" height="224" key="javadoc.popup.new" timestamp="1623271517244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="558" height="500" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1621348104597" />
+    <state width="558" height="224" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1623271517244" />
     <state width="600" height="424" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621122406933" />
     <state x="342" y="216" key="new project wizard" timestamp="1620946210934">
       <screen x="0" y="0" width="1920" height="1040" />
